@@ -1,0 +1,19 @@
+{
+  "private": "true",
+  "name": "frontend-clean-architecture",
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/trgianghuynh1808/frontend-clean-architecture.git",
+  "author": "Giang Huynh <trgianghuynhdev1808@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "core-workspace": "yarn workspace @frontend-clean-architecture/core",
+    "vue-workspace": "yarn workspace @frontend-clean-architecture/vue-app"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}
