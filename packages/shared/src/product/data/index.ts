@@ -1,1 +1,1 @@
-export * from "./ProductInMemoryRepository";
+export * from "./repository";

@@ -1,11 +1,11 @@
-import { ProductInMemoryRepository } from "../../product/data/ProductInMemoryRepository";
-import { GetProductsUseCase } from "../../product/domain/GetProductsUseCase";
-import { ProductsPloc } from "../../product/presentation/ProductPloc";
+import { ProductInMemoryRepository } from "../../product/data/repository";
+import { ProductUseCase } from "../../product/domain/use-case";
+import { ProductsPloc } from "../../product/presentation/ploc";
 
 function provideProductsPloc(): ProductsPloc {
   const productRepository = new ProductInMemoryRepository();
-  const getProductsUseCase = new GetProductsUseCase(productRepository);
-  const productsPloc = new ProductsPloc(getProductsUseCase);
+  const productUseCase = new ProductUseCase(productRepository);
+  const productsPloc = new ProductsPloc(productUseCase);
 
   return productsPloc;
 }

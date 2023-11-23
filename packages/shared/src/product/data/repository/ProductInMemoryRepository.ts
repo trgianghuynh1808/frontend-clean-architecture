@@ -1,7 +1,7 @@
-import { DataError } from "../../common/domain/DataError";
-import { Either } from "../../common/domain/Either";
-import { Product } from "../domain/Product";
-import { ProductRepository } from "../domain/ProductRepository";
+import { DataError } from "../../../common/domain/DataError";
+import { Either } from "../../../common/domain/Either";
+import { Product } from "../../domain/interface";
+import { ProductRepository } from "../../domain/repository";
 
 const products: Product[] = [
   {

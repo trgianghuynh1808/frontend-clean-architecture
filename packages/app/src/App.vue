@@ -7,7 +7,7 @@ const productPloc = dependenciesLocator.provideProductsPloc();
 const state = usePlocState(productPloc);
 
 onMounted(() => {
-  productPloc.search("asdasds");
+  productPloc.search("");
 });
 console.log(productPloc);
 </script>

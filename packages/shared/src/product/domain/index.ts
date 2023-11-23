@@ -1,3 +1,3 @@
-export * from "./GetProductsUseCase";
-export * from "./ProductRepository";
-export * from "./Product";
+export * from "./use-case";
+export * from "./repository";
+export * from "./interface";
