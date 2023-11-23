@@ -5,4 +5,9 @@
 ## Run project
 * cd `root`
 * install package `yarn`
-* run vue app `yarn workspace app dev` 
+* run vue app `yarn workspace app dev`
+
+
+## Ref: 
+* Front-end Clean Architecture: https://dev.to/xurxodev/moving-away-from-reactjs-and-vuejs-on-front-end-using-clean-architecture-3olk
+* Either Typescript: https://antman-does-software.com/stop-catching-errors-in-typescript-use-the-either-type-to-make-your-code-predictable
